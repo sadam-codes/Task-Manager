@@ -89,13 +89,13 @@ function ShowTasks() {
                   <>
                     <button
                       onClick={() => handleUpdate(task.id)}
-                      className="mr-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700"
+                      className="mr-2 bg-blue-600 text-white px-3 py-2 rounded hover:bg-blue-700"
                     >
                       Save
                     </button>
                     <button
                       onClick={cancelEdit}
-                      className="bg-gray-400 text-white px-3 py-1 rounded hover:bg-gray-500"
+                      className="bg-gray-400 text-white px-3 py-2 rounded hover:bg-gray-500"
                     >
                       Cancel
                     </button>
@@ -104,13 +104,13 @@ function ShowTasks() {
                   <>
                     <button
                       onClick={() => startEdit(task)}
-                      className="mr-2 bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
+                      className="mr-2 bg-yellow-500 text-white px-3 py-2 rounded hover:bg-yellow-600"
                     >
                       Edit
                     </button>
                     <button
                       onClick={() => handleDelete(task.id)}
-                      className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700"
+                      className="bg-red-600 text-white px-3 py-2 rounded hover:bg-red-700"
                     >
                       Delete
                     </button>
